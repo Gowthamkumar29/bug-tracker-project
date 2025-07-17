@@ -4,7 +4,7 @@ const Bug = require('../models/Bug');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
-// ✅ Middleware to verify token with "Bearer" prefix handling
+
 const verifyToken = (req, res, next) => {
   const authHeader = req.headers['authorization'];
   if (!authHeader) return res.status(403).json({ message: 'No token provided' });
@@ -22,7 +22,7 @@ const verifyToken = (req, res, next) => {
   }
 };
 
-// ✅ Report a new bug
+//  new bug
 router.post('/', verifyToken, async (req, res) => {
   try {
     const { title, description } = req.body;
@@ -42,7 +42,7 @@ router.post('/', verifyToken, async (req, res) => {
   }
 });
 
-// ✅ Get all bugs
+//  all bugs
 router.get('/', verifyToken, async (req, res) => {
   try {
     const bugs = await Bug.find().populate('reportedBy', 'username');
@@ -52,7 +52,7 @@ router.get('/', verifyToken, async (req, res) => {
   }
 });
 
-// ✅ Update bug status
+//  bug status
 router.put('/:id', verifyToken, async (req, res) => {
   try {
     const { status } = req.body;
