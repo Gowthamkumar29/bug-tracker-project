@@ -1,3 +1,5 @@
+//routes/bugs.js
+
 const express = require('express');
 const router = express.Router();
 const Bug = require('../models/Bug');
