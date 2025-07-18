@@ -12,6 +12,20 @@ A full-stack bug tracking system built with the MERN stack. Users can register, 
 - 📦 Toast notifications for feedback
 - 💄 Clean and responsive UI using vanilla styles
 
+## 🔍 Demo Screenshots
+
+### 🔐 Login Page
+![Login](screenshots/login.png)
+
+### 📊 Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### 🐞 Report Bug
+![Report Bug](screenshots/reportbug.png)
+
+### 📋 View Bugs
+![View Bugs](screenshots/viewbugs.png)
+
 ## 🛠️ Technologies Used
 
 - Frontend: React, React Router DOM, Axios, React Toastify
