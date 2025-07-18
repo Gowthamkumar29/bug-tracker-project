@@ -1,5 +1,3 @@
-// src/components/Navbar.js
-
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -11,13 +9,13 @@ const Navbar = () => {
   const handleLogout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('username');
-    navigate('/login');
+    navigate('/auth');
   };
 
   return (
     <nav style={{ padding: '10px', textAlign: 'center', background: '#f0f0f0' }}>
-      <Link to="/register" style={{ marginRight: '10px' }}>Register</Link>
-      <Link to="/login" style={{ marginRight: '10px' }}>Login</Link>
+      <Link to="/auth" style={{ marginRight: '10px' }}>Register</Link>
+      <Link to="/auth" style={{ marginRight: '10px' }}>Login</Link>
       <Link to="/submit-bug" style={{ marginRight: '10px' }}>Report Bug</Link>
       <Link to="/bugs">View Bugs</Link>
 

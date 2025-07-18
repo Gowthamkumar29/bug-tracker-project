@@ -1,5 +1,3 @@
-// src/pages/Dashboard.js
-
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
@@ -11,7 +9,7 @@ function Dashboard() {
 
   useEffect(() => {
     if (!token) {
-      navigate('/login');
+      navigate('/auth');
       return;
     }
 
@@ -29,7 +27,7 @@ function Dashboard() {
 
   const handleLogout = () => {
     localStorage.removeItem('token');
-    navigate('/login');
+    navigate('/auth');
   };
 
   return (
