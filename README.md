@@ -58,7 +58,6 @@ cd ../bug-tracker-frontend
 npm install
 
 3. Create a .env file in backend folder:
->>>>>>> 2d9d23d (📄 Added detailed README file)
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/bugtracker
 JWT_SECRET=your_jwt_secret
