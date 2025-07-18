@@ -18,13 +18,6 @@ A full-stack bug tracking system built with the MERN stack. Users can register, 
 - Backend: Node.js, Express, MongoDB, Mongoose
 - Auth: JWT (JSON Web Token)
 
-## 📸 Screenshots
-
-| Auth Page | Dashboard | Bug List |
-|-----------|-----------|----------|
-| ![Auth](screenshots/auth.png) | ![Dashboard](screenshots/dashboard.png) | ![Bugs](screenshots/bugs.png) |
-
-> Upload screenshots in a /screenshots folder and update the paths above.
 
 ## 🔧 Setup Instructions
 
