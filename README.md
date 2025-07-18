@@ -69,16 +69,18 @@ In frontend (in a new terminal):
 npm start
 Visit: http://localhost:3000
 
-📂 Folder Structure
-bug-tracker-project/
-├── bug-tracker-frontend/
-│   └── src/
-│       ├── pages/
-│       ├── components/
-│       └── App.js
-├── bug-tracker-backend/
-│   ├── models/
-│   ├── routes/
-│   └── server.js
-📜 License
-This project is licensed under the MIT License.
+
+
+  📂 Folder Structure
+   bug-tracker-project/
+ ├── bug-tracker-frontend/
+ │   └── src/
+ │       ├── pages/
+ │       ├── components/
+ │       └── App.js
+ ├── bug-tracker-backend/
+ │   ├── models/
+ │   ├── routes/
+ │   └── server.js
+ 📜 License
+  This project is licensed under the MIT License.
