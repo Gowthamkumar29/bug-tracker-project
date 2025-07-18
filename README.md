@@ -18,7 +18,7 @@ A full-stack bug tracking system built with the MERN stack. Users can register, 
 - Backend: Node.js, Express, MongoDB, Mongoose
 - Auth: JWT (JSON Web Token)
 
-<<<<<<< HEAD
+
 
 ## 🔧 Setup Instructions
 
@@ -63,25 +63,12 @@ PORT=5000
 MONGO_URI=mongodb://localhost:27017/bugtracker
 JWT_SECRET=your_jwt_secret
 
-<<<<<<< HEAD
 4. Run the app
 In backend:
 npm start
 In frontend (in a new terminal):
 npm start
 Visit: http://localhost:3000
-=======
-4. Start both servers:
-
-Backend:
-node server.js
-
-Frontend:
-cd ../bug-tracker-frontend
-npm start
-
-Visit http://localhost:3000
->>>>>>> 2d9d23d (📄 Added detailed README file)
 
 📂 Folder Structure
 bug-tracker-project/
@@ -95,8 +82,4 @@ bug-tracker-project/
 │   ├── routes/
 │   └── server.js
 📜 License
-<<<<<<< HEAD
 This project is licensed under the MIT License.
-=======
-MIT License
->>>>>>> 2d9d23d (📄 Added detailed README file)
