@@ -16,8 +16,7 @@ A full-stack bug tracking system built with the **MERN stack**. This project hel
 
 ---
 
-## :
-💡 Why This Project Is Useful
+## 💡 Why This Project Is Useful
 In real-world software development, teams constantly deal with software bugs — tracking, assigning, and resolving them. This project simulates how professional teams manage these issues.
 
 Imagine you're part of a software company where bugs need to be logged, categorized, and resolved quickly. Instead of sending messages or maintaining Excel sheets, a bug tracking system provides a central dashboard where:
